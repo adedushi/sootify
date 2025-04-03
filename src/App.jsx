@@ -4,7 +4,6 @@ function App() {
   const [image, setImage] = useState(null);
 
   const handleFileChange = (e) => {
-    console.log(e)
     setImage(e.target.files[0])
   }
 
